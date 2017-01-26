@@ -4,15 +4,15 @@ using System.Collections;
 public class MovementController: MonoBehaviour
 {
     //Variables
-    public float speed = 1.0F;
-    public float jumpSpeed = 3.0F;
-    public float gravity = 20.0F;
+    private float speed = .4F;
+    private float jumpSpeed = 3.0F;
+    private float gravity = 12.0F;
     private Vector3 moveDirection = Vector3.zero;
     private CharacterController controller;
     private Vector3 currentAngle;
 
     public Camera mainCamera;
-    private Vector3 cameraOffset = new Vector3(0.0f, -0.2f, 0.6f);
+    private Vector3 cameraOffset = new Vector3(0.2f, -0.2f, 0.6f);
 
     void Start()
     {

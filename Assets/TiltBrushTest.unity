@@ -291,9 +291,7 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: b0cc1864f5bb8e64f9f2449fa7daeeb3, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  speed: 6
-  jumpSpeed: 8
-  gravity: 20
+  gravity: 12
   mainCamera: {fileID: 388457817}
 --- !u!1001 &1247523790
 Prefab:
