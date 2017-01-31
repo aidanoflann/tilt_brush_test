@@ -4,8 +4,8 @@ using System.Collections;
 public class MovementController: MonoBehaviour
 {
     //Variables
-    private float speed = .4F;
-    private float jumpSpeed = 3.0F;
+    private float speed = .7F;
+    private float jumpSpeed = 2.3F;
     private float gravity = 12.0F;
     private Vector3 moveDirection = Vector3.zero;
     private CharacterController controller;

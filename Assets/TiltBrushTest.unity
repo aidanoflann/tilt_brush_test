@@ -573,6 +573,10 @@ Prefab:
       propertyPath: m_LocalEulerAnglesHint.z
       value: -131.91399
       objectReference: {fileID: 0}
+    - target: {fileID: 100050, guid: 50cf070e0b92d524881740018cbdd516, type: 3}
+      propertyPath: m_IsActive
+      value: 1
+      objectReference: {fileID: 0}
     m_RemovedComponents: []
   m_ParentPrefab: {fileID: 100100000, guid: 50cf070e0b92d524881740018cbdd516, type: 3}
   m_IsPrefabParent: 0
@@ -881,8 +885,8 @@ CapsuleCollider:
   m_Material: {fileID: 0}
   m_IsTrigger: 0
   m_Enabled: 1
-  m_Radius: 0.5
-  m_Height: 2
+  m_Radius: 0.23
+  m_Height: 1.53
   m_Direction: 1
   m_Center: {x: 0, y: 0, z: 0}
 --- !u!33 &1354949851
