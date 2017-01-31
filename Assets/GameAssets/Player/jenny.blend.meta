@@ -1,0 +1,550 @@
+fileFormatVersion: 2
+guid: 965f198423b10c14c870d13bcc456c1c
+timeCreated: 1485820466
+licenseType: Free
+ModelImporter:
+  serializedVersion: 19
+  fileIDToRecycleName:
+    100000: arm_IK_L
+    100002: arm_IK_R
+    100004: Armature
+    100006: Bone
+    100008: chest
+    100010: elbow_IK_L
+    100012: elbow_IK_R
+    100014: Flat_geo
+    100016: foot_l
+    100018: foot_r
+    100020: hand_l
+    100022: hand_r
+    100024: head
+    100026: hips
+    100028: //RootNode
+    100030: knee_IK_L
+    100032: knee_IK_R
+    100034: leg_IK_L
+    100036: leg_IK_R
+    100038: lower_arm_l
+    100040: lower_arm_r
+    100042: lower_leg_l
+    100044: lower_leg_r
+    100046: Marker_geo
+    100048: neck
+    100050: shoulder_l
+    100052: shoulder_r
+    100054: Skeleton
+    100056: spine
+    100058: TaperedMarker_geo
+    100060: upper_arm_l
+    100062: upper_arm_r
+    100064: upper_leg_l
+    100066: upper_leg_r
+    100068: Wire_geo
+    400000: arm_IK_L
+    400002: arm_IK_R
+    400004: Armature
+    400006: Bone
+    400008: chest
+    400010: elbow_IK_L
+    400012: elbow_IK_R
+    400014: Flat_geo
+    400016: foot_l
+    400018: foot_r
+    400020: hand_l
+    400022: hand_r
+    400024: head
+    400026: hips
+    400028: //RootNode
+    400030: knee_IK_L
+    400032: knee_IK_R
+    400034: leg_IK_L
+    400036: leg_IK_R
+    400038: lower_arm_l
+    400040: lower_arm_r
+    400042: lower_leg_l
+    400044: lower_leg_r
+    400046: Marker_geo
+    400048: neck
+    400050: shoulder_l
+    400052: shoulder_r
+    400054: Skeleton
+    400056: spine
+    400058: TaperedMarker_geo
+    400060: upper_arm_l
+    400062: upper_arm_r
+    400064: upper_leg_l
+    400066: upper_leg_r
+    400068: Wire_geo
+    4300000: Flat_geo
+    4300002: Marker_geo
+    4300004: TaperedMarker_geo
+    4300006: Wire_geo
+    7400000: Default Take
+    7400002: Idle
+    7400004: Running_001
+    7400006: Running
+    9500000: //RootNode
+    13700000: Flat_geo
+    13700002: Marker_geo
+    13700004: TaperedMarker_geo
+    13700006: Wire_geo
+  materials:
+    importMaterials: 1
+    materialName: 0
+    materialSearch: 1
+  animations:
+    legacyGenerateAnimations: 4
+    bakeSimulation: 0
+    resampleCurves: 1
+    optimizeGameObjects: 0
+    motionNodeName: 
+    animationImportErrors: 
+    animationImportWarnings: 
+    animationRetargetingWarnings: 
+    animationDoRetargetingWarnings: 0
+    animationCompression: 1
+    animationRotationError: 0.5
+    animationPositionError: 0.5
+    animationScaleError: 0.5
+    animationWrapMode: 0
+    extraExposedTransformPaths: []
+    clipAnimations:
+    - serializedVersion: 16
+      name: Default Take
+      takeName: Default Take
+      firstFrame: 0
+      lastFrame: 249
+      wrapMode: 0
+      orientationOffsetY: 0
+      level: 0
+      cycleOffset: 0
+      loop: 0
+      hasAdditiveReferencePose: 0
+      loopTime: 1
+      loopBlend: 0
+      loopBlendOrientation: 0
+      loopBlendPositionY: 0
+      loopBlendPositionXZ: 0
+      keepOriginalOrientation: 0
+      keepOriginalPositionY: 1
+      keepOriginalPositionXZ: 0
+      heightFromFeet: 0
+      mirror: 0
+      bodyMask: 01000000010000000100000001000000010000000100000001000000010000000100000001000000010000000100000001000000
+      curves: []
+      events: []
+      transformMask:
+      - path: 
+        weight: 1
+      - path: Armature
+        weight: 1
+      - path: Armature/Bone
+        weight: 1
+      - path: Flat_geo
+        weight: 1
+      - path: Marker_geo
+        weight: 1
+      - path: Skeleton
+        weight: 1
+      - path: Skeleton/arm_IK_L
+        weight: 1
+      - path: Skeleton/arm_IK_R
+        weight: 1
+      - path: Skeleton/elbow_IK_L
+        weight: 1
+      - path: Skeleton/elbow_IK_R
+        weight: 1
+      - path: Skeleton/hips
+        weight: 1
+      - path: Skeleton/hips/spine
+        weight: 1
+      - path: Skeleton/hips/spine/chest
+        weight: 1
+      - path: Skeleton/hips/spine/chest/neck
+        weight: 1
+      - path: Skeleton/hips/spine/chest/neck/head
+        weight: 1
+      - path: Skeleton/hips/spine/shoulder_l
+        weight: 1
+      - path: Skeleton/hips/spine/shoulder_l/upper_arm_l
+        weight: 1
+      - path: Skeleton/hips/spine/shoulder_l/upper_arm_l/lower_arm_l
+        weight: 1
+      - path: Skeleton/hips/spine/shoulder_l/upper_arm_l/lower_arm_l/hand_l
+        weight: 1
+      - path: Skeleton/hips/spine/shoulder_r
+        weight: 1
+      - path: Skeleton/hips/spine/shoulder_r/upper_arm_r
+        weight: 1
+      - path: Skeleton/hips/spine/shoulder_r/upper_arm_r/lower_arm_r
+        weight: 1
+      - path: Skeleton/hips/spine/shoulder_r/upper_arm_r/lower_arm_r/hand_r
+        weight: 1
+      - path: Skeleton/knee_IK_L
+        weight: 1
+      - path: Skeleton/knee_IK_R
+        weight: 1
+      - path: Skeleton/leg_IK_L
+        weight: 1
+      - path: Skeleton/leg_IK_R
+        weight: 1
+      - path: Skeleton/upper_leg_l
+        weight: 1
+      - path: Skeleton/upper_leg_l/lower_leg_l
+        weight: 1
+      - path: Skeleton/upper_leg_l/lower_leg_l/foot_l
+        weight: 1
+      - path: Skeleton/upper_leg_r
+        weight: 1
+      - path: Skeleton/upper_leg_r/lower_leg_r
+        weight: 1
+      - path: Skeleton/upper_leg_r/lower_leg_r/foot_r
+        weight: 1
+      - path: TaperedMarker_geo
+        weight: 1
+      - path: Wire_geo
+        weight: 1
+      maskType: 3
+      maskSource: {instanceID: 0}
+      additiveReferencePoseFrame: 0
+    - serializedVersion: 16
+      name: Idle
+      takeName: Idle
+      firstFrame: -1
+      lastFrame: 249
+      wrapMode: 0
+      orientationOffsetY: 0
+      level: 0
+      cycleOffset: 0
+      loop: 0
+      hasAdditiveReferencePose: 0
+      loopTime: 0
+      loopBlend: 0
+      loopBlendOrientation: 0
+      loopBlendPositionY: 0
+      loopBlendPositionXZ: 0
+      keepOriginalOrientation: 0
+      keepOriginalPositionY: 1
+      keepOriginalPositionXZ: 0
+      heightFromFeet: 0
+      mirror: 0
+      bodyMask: 01000000010000000100000001000000010000000100000001000000010000000100000001000000010000000100000001000000
+      curves: []
+      events: []
+      transformMask:
+      - path: 
+        weight: 1
+      - path: Armature
+        weight: 1
+      - path: Armature/Bone
+        weight: 1
+      - path: Flat_geo
+        weight: 1
+      - path: Marker_geo
+        weight: 1
+      - path: Skeleton
+        weight: 1
+      - path: Skeleton/arm_IK_L
+        weight: 1
+      - path: Skeleton/arm_IK_R
+        weight: 1
+      - path: Skeleton/elbow_IK_L
+        weight: 1
+      - path: Skeleton/elbow_IK_R
+        weight: 1
+      - path: Skeleton/hips
+        weight: 1
+      - path: Skeleton/hips/spine
+        weight: 1
+      - path: Skeleton/hips/spine/chest
+        weight: 1
+      - path: Skeleton/hips/spine/chest/neck
+        weight: 1
+      - path: Skeleton/hips/spine/chest/neck/head
+        weight: 1
+      - path: Skeleton/hips/spine/shoulder_l
+        weight: 1
+      - path: Skeleton/hips/spine/shoulder_l/upper_arm_l
+        weight: 1
+      - path: Skeleton/hips/spine/shoulder_l/upper_arm_l/lower_arm_l
+        weight: 1
+      - path: Skeleton/hips/spine/shoulder_l/upper_arm_l/lower_arm_l/hand_l
+        weight: 1
+      - path: Skeleton/hips/spine/shoulder_r
+        weight: 1
+      - path: Skeleton/hips/spine/shoulder_r/upper_arm_r
+        weight: 1
+      - path: Skeleton/hips/spine/shoulder_r/upper_arm_r/lower_arm_r
+        weight: 1
+      - path: Skeleton/hips/spine/shoulder_r/upper_arm_r/lower_arm_r/hand_r
+        weight: 1
+      - path: Skeleton/knee_IK_L
+        weight: 1
+      - path: Skeleton/knee_IK_R
+        weight: 1
+      - path: Skeleton/leg_IK_L
+        weight: 1
+      - path: Skeleton/leg_IK_R
+        weight: 1
+      - path: Skeleton/upper_leg_l
+        weight: 1
+      - path: Skeleton/upper_leg_l/lower_leg_l
+        weight: 1
+      - path: Skeleton/upper_leg_l/lower_leg_l/foot_l
+        weight: 1
+      - path: Skeleton/upper_leg_r
+        weight: 1
+      - path: Skeleton/upper_leg_r/lower_leg_r
+        weight: 1
+      - path: Skeleton/upper_leg_r/lower_leg_r/foot_r
+        weight: 1
+      - path: TaperedMarker_geo
+        weight: 1
+      - path: Wire_geo
+        weight: 1
+      maskType: 3
+      maskSource: {instanceID: 0}
+      additiveReferencePoseFrame: 0
+    - serializedVersion: 16
+      name: Running_001
+      takeName: Running_001
+      firstFrame: -1
+      lastFrame: 197
+      wrapMode: 0
+      orientationOffsetY: 0
+      level: 0
+      cycleOffset: 0
+      loop: 0
+      hasAdditiveReferencePose: 0
+      loopTime: 0
+      loopBlend: 0
+      loopBlendOrientation: 0
+      loopBlendPositionY: 0
+      loopBlendPositionXZ: 0
+      keepOriginalOrientation: 0
+      keepOriginalPositionY: 1
+      keepOriginalPositionXZ: 0
+      heightFromFeet: 0
+      mirror: 0
+      bodyMask: 01000000010000000100000001000000010000000100000001000000010000000100000001000000010000000100000001000000
+      curves: []
+      events: []
+      transformMask:
+      - path: 
+        weight: 1
+      - path: Armature
+        weight: 1
+      - path: Armature/Bone
+        weight: 1
+      - path: Flat_geo
+        weight: 1
+      - path: Marker_geo
+        weight: 1
+      - path: Skeleton
+        weight: 1
+      - path: Skeleton/arm_IK_L
+        weight: 1
+      - path: Skeleton/arm_IK_R
+        weight: 1
+      - path: Skeleton/elbow_IK_L
+        weight: 1
+      - path: Skeleton/elbow_IK_R
+        weight: 1
+      - path: Skeleton/hips
+        weight: 1
+      - path: Skeleton/hips/spine
+        weight: 1
+      - path: Skeleton/hips/spine/chest
+        weight: 1
+      - path: Skeleton/hips/spine/chest/neck
+        weight: 1
+      - path: Skeleton/hips/spine/chest/neck/head
+        weight: 1
+      - path: Skeleton/hips/spine/shoulder_l
+        weight: 1
+      - path: Skeleton/hips/spine/shoulder_l/upper_arm_l
+        weight: 1
+      - path: Skeleton/hips/spine/shoulder_l/upper_arm_l/lower_arm_l
+        weight: 1
+      - path: Skeleton/hips/spine/shoulder_l/upper_arm_l/lower_arm_l/hand_l
+        weight: 1
+      - path: Skeleton/hips/spine/shoulder_r
+        weight: 1
+      - path: Skeleton/hips/spine/shoulder_r/upper_arm_r
+        weight: 1
+      - path: Skeleton/hips/spine/shoulder_r/upper_arm_r/lower_arm_r
+        weight: 1
+      - path: Skeleton/hips/spine/shoulder_r/upper_arm_r/lower_arm_r/hand_r
+        weight: 1
+      - path: Skeleton/knee_IK_L
+        weight: 1
+      - path: Skeleton/knee_IK_R
+        weight: 1
+      - path: Skeleton/leg_IK_L
+        weight: 1
+      - path: Skeleton/leg_IK_R
+        weight: 1
+      - path: Skeleton/upper_leg_l
+        weight: 1
+      - path: Skeleton/upper_leg_l/lower_leg_l
+        weight: 1
+      - path: Skeleton/upper_leg_l/lower_leg_l/foot_l
+        weight: 1
+      - path: Skeleton/upper_leg_r
+        weight: 1
+      - path: Skeleton/upper_leg_r/lower_leg_r
+        weight: 1
+      - path: Skeleton/upper_leg_r/lower_leg_r/foot_r
+        weight: 1
+      - path: TaperedMarker_geo
+        weight: 1
+      - path: Wire_geo
+        weight: 1
+      maskType: 3
+      maskSource: {instanceID: 0}
+      additiveReferencePoseFrame: 0
+    - serializedVersion: 16
+      name: Running
+      takeName: Running
+      firstFrame: -1
+      lastFrame: 247
+      wrapMode: 0
+      orientationOffsetY: 0
+      level: 0
+      cycleOffset: 0
+      loop: 0
+      hasAdditiveReferencePose: 0
+      loopTime: 1
+      loopBlend: 0
+      loopBlendOrientation: 0
+      loopBlendPositionY: 0
+      loopBlendPositionXZ: 0
+      keepOriginalOrientation: 0
+      keepOriginalPositionY: 1
+      keepOriginalPositionXZ: 0
+      heightFromFeet: 0
+      mirror: 0
+      bodyMask: 01000000010000000100000001000000010000000100000001000000010000000100000001000000010000000100000001000000
+      curves: []
+      events: []
+      transformMask:
+      - path: 
+        weight: 1
+      - path: Armature
+        weight: 1
+      - path: Armature/Bone
+        weight: 1
+      - path: Flat_geo
+        weight: 1
+      - path: Marker_geo
+        weight: 1
+      - path: Skeleton
+        weight: 1
+      - path: Skeleton/arm_IK_L
+        weight: 1
+      - path: Skeleton/arm_IK_R
+        weight: 1
+      - path: Skeleton/elbow_IK_L
+        weight: 1
+      - path: Skeleton/elbow_IK_R
+        weight: 1
+      - path: Skeleton/hips
+        weight: 1
+      - path: Skeleton/hips/spine
+        weight: 1
+      - path: Skeleton/hips/spine/chest
+        weight: 1
+      - path: Skeleton/hips/spine/chest/neck
+        weight: 1
+      - path: Skeleton/hips/spine/chest/neck/head
+        weight: 1
+      - path: Skeleton/hips/spine/shoulder_l
+        weight: 1
+      - path: Skeleton/hips/spine/shoulder_l/upper_arm_l
+        weight: 1
+      - path: Skeleton/hips/spine/shoulder_l/upper_arm_l/lower_arm_l
+        weight: 1
+      - path: Skeleton/hips/spine/shoulder_l/upper_arm_l/lower_arm_l/hand_l
+        weight: 1
+      - path: Skeleton/hips/spine/shoulder_r
+        weight: 1
+      - path: Skeleton/hips/spine/shoulder_r/upper_arm_r
+        weight: 1
+      - path: Skeleton/hips/spine/shoulder_r/upper_arm_r/lower_arm_r
+        weight: 1
+      - path: Skeleton/hips/spine/shoulder_r/upper_arm_r/lower_arm_r/hand_r
+        weight: 1
+      - path: Skeleton/knee_IK_L
+        weight: 1
+      - path: Skeleton/knee_IK_R
+        weight: 1
+      - path: Skeleton/leg_IK_L
+        weight: 1
+      - path: Skeleton/leg_IK_R
+        weight: 1
+      - path: Skeleton/upper_leg_l
+        weight: 1
+      - path: Skeleton/upper_leg_l/lower_leg_l
+        weight: 1
+      - path: Skeleton/upper_leg_l/lower_leg_l/foot_l
+        weight: 1
+      - path: Skeleton/upper_leg_r
+        weight: 1
+      - path: Skeleton/upper_leg_r/lower_leg_r
+        weight: 1
+      - path: Skeleton/upper_leg_r/lower_leg_r/foot_r
+        weight: 1
+      - path: TaperedMarker_geo
+        weight: 1
+      - path: Wire_geo
+        weight: 1
+      maskType: 3
+      maskSource: {instanceID: 0}
+      additiveReferencePoseFrame: 0
+    isReadable: 1
+  meshes:
+    lODScreenPercentages: []
+    globalScale: 1
+    meshCompression: 0
+    addColliders: 0
+    importBlendShapes: 1
+    swapUVChannels: 0
+    generateSecondaryUV: 0
+    useFileUnits: 1
+    optimizeMeshForGPU: 1
+    keepQuads: 0
+    weldVertices: 1
+    secondaryUVAngleDistortion: 8
+    secondaryUVAreaDistortion: 15.000001
+    secondaryUVHardAngle: 88
+    secondaryUVPackMargin: 4
+    useFileScale: 1
+  tangentSpace:
+    normalSmoothAngle: 60
+    normalImportMode: 0
+    tangentImportMode: 3
+  importAnimation: 1
+  copyAvatar: 0
+  humanDescription:
+    serializedVersion: 2
+    human: []
+    skeleton: []
+    armTwist: 0.5
+    foreArmTwist: 0.5
+    upperLegTwist: 0.5
+    legTwist: 0.5
+    armStretch: 0.05
+    legStretch: 0.05
+    feetSpacing: 0
+    rootMotionBoneName: 
+    rootMotionBoneRotation: {x: 0, y: 0, z: 0, w: 1}
+    hasTranslationDoF: 0
+    hasExtraRoot: 0
+    skeletonHasParents: 1
+  lastHumanDescriptionAvatarSource: {instanceID: 0}
+  animationType: 2
+  humanoidOversampling: 1
+  additionalBone: 0
+  userData: 
+  assetBundleName: 
+  assetBundleVariant: 

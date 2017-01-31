@@ -1,0 +1,186 @@
+fileFormatVersion: 2
+guid: 8a09c2d8734887d4f854d89b0a232801
+timeCreated: 1485805197
+licenseType: Free
+ModelImporter:
+  serializedVersion: 19
+  fileIDToRecycleName:
+    100000: arm_IK_L
+    100002: arm_IK_L_end
+    100004: arm_IK_R
+    100006: arm_IK_R_end
+    100008: Armature
+    100010: Bone
+    100012: Bone_end
+    100014: Camera
+    100016: chest
+    100018: elbow_IK_L
+    100020: elbow_IK_L_end
+    100022: elbow_IK_R
+    100024: elbow_IK_R_end
+    100026: Flat_geo
+    100028: foot_l
+    100030: foot_l_end
+    100032: foot_r
+    100034: foot_r_end
+    100036: hand_l
+    100038: hand_l_end
+    100040: hand_r
+    100042: hand_r_end
+    100044: head
+    100046: head_end
+    100048: hips
+    100050: //RootNode
+    100052: knee_IK_L
+    100054: knee_IK_L_end
+    100056: knee_IK_R
+    100058: knee_IK_R_end
+    100060: Lamp
+    100062: leg_IK_L
+    100064: leg_IK_L_end
+    100066: leg_IK_R
+    100068: leg_IK_R_end
+    100070: lower_arm_l
+    100072: lower_arm_r
+    100074: lower_leg_l
+    100076: lower_leg_r
+    100078: Marker_geo
+    100080: neck
+    100082: shoulder_l
+    100084: shoulder_r
+    100086: Skeleton
+    100088: spine
+    100090: TaperedMarker_geo
+    100092: upper_arm_l
+    100094: upper_arm_r
+    100096: upper_leg_l
+    100098: upper_leg_r
+    100100: Wire_geo
+    400000: arm_IK_L
+    400002: arm_IK_L_end
+    400004: arm_IK_R
+    400006: arm_IK_R_end
+    400008: Armature
+    400010: Bone
+    400012: Bone_end
+    400014: Camera
+    400016: chest
+    400018: elbow_IK_L
+    400020: elbow_IK_L_end
+    400022: elbow_IK_R
+    400024: elbow_IK_R_end
+    400026: Flat_geo
+    400028: foot_l
+    400030: foot_l_end
+    400032: foot_r
+    400034: foot_r_end
+    400036: hand_l
+    400038: hand_l_end
+    400040: hand_r
+    400042: hand_r_end
+    400044: head
+    400046: head_end
+    400048: hips
+    400050: //RootNode
+    400052: knee_IK_L
+    400054: knee_IK_L_end
+    400056: knee_IK_R
+    400058: knee_IK_R_end
+    400060: Lamp
+    400062: leg_IK_L
+    400064: leg_IK_L_end
+    400066: leg_IK_R
+    400068: leg_IK_R_end
+    400070: lower_arm_l
+    400072: lower_arm_r
+    400074: lower_leg_l
+    400076: lower_leg_r
+    400078: Marker_geo
+    400080: neck
+    400082: shoulder_l
+    400084: shoulder_r
+    400086: Skeleton
+    400088: spine
+    400090: TaperedMarker_geo
+    400092: upper_arm_l
+    400094: upper_arm_r
+    400096: upper_leg_l
+    400098: upper_leg_r
+    400100: Wire_geo
+    4300000: Flat_geo
+    4300002: Marker_geo
+    4300004: TaperedMarker_geo
+    4300006: Wire_geo
+    9500000: //RootNode
+    13700000: Flat_geo
+    13700002: Marker_geo
+    13700004: TaperedMarker_geo
+    13700006: Wire_geo
+  materials:
+    importMaterials: 1
+    materialName: 0
+    materialSearch: 1
+  animations:
+    legacyGenerateAnimations: 4
+    bakeSimulation: 0
+    resampleCurves: 1
+    optimizeGameObjects: 0
+    motionNodeName: 
+    animationImportErrors: 
+    animationImportWarnings: 
+    animationRetargetingWarnings: 
+    animationDoRetargetingWarnings: 0
+    animationCompression: 1
+    animationRotationError: 0.5
+    animationPositionError: 0.5
+    animationScaleError: 0.5
+    animationWrapMode: 0
+    extraExposedTransformPaths: []
+    clipAnimations: []
+    isReadable: 1
+  meshes:
+    lODScreenPercentages: []
+    globalScale: 1
+    meshCompression: 0
+    addColliders: 0
+    importBlendShapes: 1
+    swapUVChannels: 0
+    generateSecondaryUV: 0
+    useFileUnits: 1
+    optimizeMeshForGPU: 1
+    keepQuads: 0
+    weldVertices: 1
+    secondaryUVAngleDistortion: 8
+    secondaryUVAreaDistortion: 15.000001
+    secondaryUVHardAngle: 88
+    secondaryUVPackMargin: 4
+    useFileScale: 1
+  tangentSpace:
+    normalSmoothAngle: 60
+    normalImportMode: 0
+    tangentImportMode: 3
+  importAnimation: 1
+  copyAvatar: 0
+  humanDescription:
+    serializedVersion: 2
+    human: []
+    skeleton: []
+    armTwist: 0.5
+    foreArmTwist: 0.5
+    upperLegTwist: 0.5
+    legTwist: 0.5
+    armStretch: 0.05
+    legStretch: 0.05
+    feetSpacing: 0
+    rootMotionBoneName: 
+    rootMotionBoneRotation: {x: 0, y: 0, z: 0, w: 1}
+    hasTranslationDoF: 0
+    hasExtraRoot: 0
+    skeletonHasParents: 1
+  lastHumanDescriptionAvatarSource: {instanceID: 0}
+  animationType: 2
+  humanoidOversampling: 1
+  additionalBone: 0
+  userData: 
+  assetBundleName: 
+  assetBundleVariant: 
